@@ -1,0 +1,274 @@
+@media screen and (max-width: 1400px) {
+
+    header .head-top nav .top {
+        font-size: 0.925rem;
+    }
+
+}
+
+
+@media screen and (max-width: 992px) {
+
+    header .head-top nav .top {
+        font-size: 0.925rem;
+    }
+
+}
+
+
+
+@media screen and (max-width: 540px) {
+
+    .tm .box {
+        width: 100%;
+    }
+
+    .tm .box .figure {
+        height: 100%;
+
+    }
+
+
+}
+
+@media (max-width:1200px) {
+
+    .header__burger-btn {
+        display: block;
+    }
+
+    .menu {
+        position: absolute;
+        right: -300px;
+        top: 0;
+        width: 300px;
+        height: 799px;
+        padding: 75px 20px 20px 20px;
+        background-color: var(--color-grey-dark2);
+        visibility: hidden;
+        transition: transform .5s, visibility .5s;
+        will-change: transform;
+    }
+
+    .menu {
+        display: block !important;
+    }
+
+    .menu ul.menus {
+        display: block !important;
+        width: 300px;
+        padding-top: 25px;
+    }
+
+    header .head-top nav ul li.my {
+        padding: 15px 20px;
+
+    }
+
+    .menu nav.c {
+        width: 100%;
+    }
+
+    .menu nav.c ul {
+        padding-top: 200px;
+    }
+
+    .intro.open .menu {
+        transform: translateX(-100%);
+        visibility: visible;
+    }
+
+}
+
+@media (max-width:1400px) {
+
+    main div p {
+        font-size: 1.15rem;
+        padding-bottom: 4px;
+    }
+
+    main div ul li {
+        font-size: 1.15rem;
+        padding: 0 0;
+    }
+
+    main div .idm_history,
+    .idm_target {
+        padding: 7px 40px;
+    }
+
+    main div .idm_mission {
+        padding: 10px 40px;
+    }
+
+}
+
+@media (max-width:1200px) {
+
+    main div .idm_history h2,
+    .idm_target h2,
+    .idm_mission h2 {
+        font-size: 1.25rem;
+        padding: 0 0 3px;
+    }
+
+
+    main div p {
+        font-size: 1rem;
+        padding-bottom: 4px;
+    }
+
+    main div ul li {
+        font-size: 1rem;
+        padding: 0 0;
+    }
+
+}
+
+@media (max-width:767px) {
+
+    .owl-carousel.owl-loaded.tm .box {
+        width: 247px;
+    }
+
+}
+
+@media (max-width:1480px) {
+
+    .owl-theme .owl-nav {
+        left: -58px;
+        right: -58px;
+    }
+
+}
+
+@media (max-width:1216px) {
+
+    .owl-theme .owl-nav {
+        left: -50px;
+        right: -50px;
+    }
+
+}
+
+@media (max-width:1030px) {
+
+    .owl-theme .owl-nav {
+        left: -40px;
+        right: -40px;
+    }
+
+}
+
+@media (max-width:1030px) {
+
+    .owl-theme .owl-nav {
+        left: -30px;
+        right: -30px;
+    }
+
+}
+
+@media (max-width:767px) {
+
+    .owl-theme .owl-nav {
+        left: -70px;
+        right: -70px;
+    }
+
+}
+
+@media (max-width:767px) {
+
+    .owl-carousel.owl-loaded.tm .box {
+        width: 247px;
+    }
+
+}
+
+@media (max-width:992px) {
+
+    div.project .tab-content div {
+        gap: 30px;
+    }
+
+}
+
+
+@media (max-width:767px) {
+
+    div.project .tab-content div h4 {
+        font-size: 1.1rem;
+    }
+    
+    div.project .tab-content div a {
+        font-size: 0.7rem;
+    }
+
+    div.project .tab-content div p {
+        font-size: 0.9rem;
+        
+    }
+
+}
+
+@media (max-width:454px) {
+
+    div.project .tab-content div h4 {
+        font-size: 1rem;
+        line-height: 0.8rem;
+    }
+    
+    div.project .tab-content div a {
+        font-size: 0.6rem;
+    }
+
+    div.project .tab-content div p {
+        font-size: 0.8rem;
+        line-height: 0.8rem;
+    }
+
+}
+
+@media (max-width:400px) {
+
+    div.project .tab-content div.gagarin,
+    div.family,
+    div.patriot {
+       flex-direction: column;
+    }
+    
+    div.project .tab-content div.text {
+        width: 165px;
+    }
+
+    div.project .tab-content div h4 {
+        font-size: 1.1rem;
+    }
+    
+    div.project .tab-content div a {
+        font-size: 0.7rem;
+    }
+
+    div.project .tab-content div p {
+        font-size: 0.9rem;
+        padding-top: 10px;
+    }
+
+}
+
+
+
+@media (max-width:767px) {
+    .owl-carousel.owl-loaded.part .box {
+        width: 227px;
+    }
+}
+
+@media (max-width:659px) {
+
+    .owl-carousel.owl-loaded.part .box {
+        width: 270px;
+    }
+
+}
